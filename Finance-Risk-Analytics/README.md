@@ -67,7 +67,7 @@ MODULES LOADED:
 ### `[PANEL 01]` Value at Risk Analysis
 > Return distribution with Normal fit overlay, VaR & CVaR markers, and rolling 30-day VaR time series
 
-![VaR Analysis](chart_var.png)
+![VaR Analysis](Finance-Risk-Analytics/assests/newplot(1).png)
 
 ---
 
