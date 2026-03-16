@@ -60,70 +60,70 @@ MODULES LOADED:
 ## `> LIVE DASHBOARD PREVIEW`
 
 ### Main Dashboard — 9-Panel Interactive View
-![Main Dashboard](dashboard_main.png)
+![Main Dashboard](assests/newplot.png)
 
 ---
 
 ### `[PANEL 01]` Value at Risk Analysis
 > Return distribution with Normal fit overlay, VaR & CVaR markers, and rolling 30-day VaR time series
 
-![VaR Analysis](Finance-Risk-Analytics/assests/newplot(1).png)
+![VaR Analysis](assests/newplot%20(9).png)
 
 ---
 
 ### `[PANEL 02]` Portfolio Drawdown Over Time
 > Peak-to-trough decline tracker — Max Drawdown: **-40.7%** during the 2022–2023 bear market
 
-![Drawdown](chart_drawdown.png)
+![Drawdown](assests/newplot%20(8).png)
 
 ---
 
 ### `[PANEL 03]` Pairwise Correlation Matrix
 > Daily return correlations across all 8 holdings — JPM & GS show highest co-movement at 0.82
 
-![Correlation Matrix](chart_correlation.png)
+![Correlation Matrix](assests/newplot%20(7).png)
 
 ---
 
 ### `[PANEL 04]` 60-Day Rolling Correlation vs SPY
 > Regime detection — correlations spike sharply during market stress events (2022 crash, 2025 volatility)
 
-![Rolling Correlation](chart_rolling_corr.png)
+![Rolling Correlation](assests/newplot%20(6).png)
 
 ---
 
 ### `[PANEL 05]` ML Price Prediction — AAPL
 > Ensemble model (RF + GB) predicting 5-day forward returns vs actuals, with prediction error distribution
 
-![ML Prediction](chart_ml_prediction.png)
+![ML Prediction](assests/newplot%20(5).png)
 
 ---
 
 ### `[PANEL 06]` Feature Importance Comparison
 > `vol_ratio` and `realised_vol_21` dominate both models — volatility regime is the strongest predictive signal
 
-![Feature Importance](chart_feature_importance.png)
+![Feature Importance](assests/newplot%20(4).png)
 
 ---
 
 ### `[PANEL 07]` Simulated ML Trading Strategy
 > Long/short signal strategy vs Buy & Hold SPY — ML strategy outperforms during directional trending regimes
 
-![ML Strategy](chart_ml_strategy.png)
+![ML Strategy](assests/newplot%20(3).png)
 
 ---
 
 ### `[PANEL 08]` Monte Carlo Simulation — 10,000 Paths × 252 Days
 > Correlated multi-asset paths via Cholesky decomposition — fan chart with 5th/25th/50th/75th/95th percentile bands
 
-![Monte Carlo](chart_monte_carlo.png)
+![Monte Carlo](assests/newplot%20(1).png)
 
 ---
 
 ### `[PANEL 09]` Portfolio Value Distribution After 1 Year
 > Final value KDE across all 10,000 simulations — right-skewed with positive expected return
 
-![Distribution](newplot.png)
+![Distribution](assests/newplot%20(2).png)
 
 ---
 
@@ -238,7 +238,17 @@ Finance-Risk-Analytics/
 │
 ├── Finance_Risk_Analytics.ipynb   ← Main notebook (31 cells, 7 sections)
 ├── requirements.txt               ← All dependencies
-├── assests           ← 9-panel dashboard screenshot
+├── assests/                       ← All chart screenshots
+│   ├── newplot.png                ← Main 9-panel dashboard
+│   ├── newplot (1).png            ← Monte Carlo simulation
+│   ├── newplot (2).png            ← Portfolio value distribution
+│   ├── newplot (3).png            ← ML trading strategy
+│   ├── newplot (4).png            ← Feature importance
+│   ├── newplot (5).png            ← ML price prediction
+│   ├── newplot (6).png            ← Rolling correlation
+│   ├── newplot (7).png            ← Correlation matrix
+│   ├── newplot (8).png            ← Portfolio drawdown
+│   └── newplot (9).png            ← VaR analysis
 └── README.md                      ← You are here
 ```
 
